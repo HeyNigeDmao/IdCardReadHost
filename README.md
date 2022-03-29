@@ -18,7 +18,9 @@
 JS调用代码如下
 
 var port ="0";
+
 function Test(){
+
      $.ajax({
             url: 'http://localhost:5678/IdReader/ReadCard?port=' + port,
             type: 'get',
